@@ -1,0 +1,32 @@
+{
+  "name": "create-web3app",
+  "version": "0.0.0",
+  "description": "Create web3app with one command",
+  "author": "Ledger",
+  "license": "MIT",
+  "bin": {
+    "create-web3app": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/ci-info": "2.0.0",
+    "@types/cross-spawn": "6.0.0",
+    "@types/node": "^12.6.8",
+    "@types/prompts": "2.0.1",
+    "@types/rimraf": "3.0.0",
+    "@types/tar": "4.0.3",
+    "@types/validate-npm-package-name": "3.0.0",
+    "chalk": "2.4.2",
+    "commander": "2.20.0",
+    "got": "10.7.0",
+    "prompts": "^2.4.2",
+    "tar": "^6.1.13",
+    "util": "^0.12.5",
+    "validate-npm-package-name": "^5.0.0",
+    "cross-spawn": "^7.0.3"
+  }
+}

@@ -1,6 +1,6 @@
 ## create-web3app script
 
-# Steps : 
+### Steps : 
 
 1 - Clone the repo
 

@@ -7,13 +7,21 @@
 
 2 - Install dependencies
 ```
-pnpm i  
+pnpm install --prefix ./PoC-create-web3app 
 ```
 
-3 - Link the project in another directory
+3 - Create a new directory
 
 ```
-pnpm link PoC-create-web3app
+mkdir app 
+cd ./app 
+```
+
+3 - Init folder & Link the project
+
+```
+pnpm init
+pnpm link ../PoC-create-web3app
 ```
 
 4 - Launch the script

@@ -22,11 +22,14 @@
     "@types/validate-npm-package-name": "3.0.0",
     "chalk": "2.4.2",
     "commander": "2.20.0",
+    "cross-spawn": "^7.0.3",
     "got": "10.7.0",
     "prompts": "^2.4.2",
     "tar": "^6.1.13",
     "util": "^0.12.5",
-    "validate-npm-package-name": "^5.0.0",
-    "cross-spawn": "^7.0.3"
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "dependencies": {
+    "create-web3app": "link:"
   }
 }
